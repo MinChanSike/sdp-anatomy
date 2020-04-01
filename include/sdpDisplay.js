@@ -83,7 +83,7 @@ function displayData(data) {
 
     //Show the hover-data
     var i, currentLine, descriptionText, lastHover;
-    $(".list-group-item").hover(function () {
+    $(".list-group-item").click(function () {
         i = $(this).attr("id");
         $(this).addClass("active");
         $(lastHover).removeClass("active");

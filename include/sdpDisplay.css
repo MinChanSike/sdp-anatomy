@@ -3,7 +3,7 @@
     padding: 5px;
     word-wrap: break-word;
 }
-.list-group-item:nth-child(odd) {
+.list-group-item:nth-child(odd):not(.active) {
     background: whitesmoke;
 }
 .well {
